@@ -1,4 +1,4 @@
-class Shoes {
+ class Shoes {
   String companyName;
   String color;
   String design;
@@ -13,14 +13,12 @@ class Shoes {
     this.price,
   );
 
-  void toPurchaseInShoes() {
-    print('shoes purchase to selling');
-  }
 
-  String toSellInShoes() {
-    return 'sell to : $companyName shoe $design \n'
-        ' color : $color \n '
-        'Leg Size : $sizeInLeg \n'
-        ' Selling price : $price';
-  }
+ void toSellInShoes(){
+   print('sell to : $companyName shoe $design \n'
+       ' color : $color \n '
+       'Leg Size : $sizeInLeg \n'
+       ' Selling price : $price');
+ }
+
 }

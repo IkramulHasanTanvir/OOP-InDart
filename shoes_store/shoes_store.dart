@@ -1,3 +1,4 @@
+import 'apex_shoes.dart';
 import 'bata_shoes.dart';
 import 'monju_shoes.dart';
 void main() {
@@ -8,7 +9,7 @@ void main() {
     price: 2000.00,
   );
 
-  print(bataShoes.toSellInShoes());
+  bataShoes.toSellInShoes();
 
   MonjuShoes monjuShoes = MonjuShoes(
     color: 'Black',
@@ -17,5 +18,15 @@ void main() {
     price: 400.00,
   );
 
-  print(monjuShoes.toSellInShoes());
+  monjuShoes.toSellInShoes();
+
+  ApexShoes apexShoes = ApexShoes(
+    color: 'Black',
+    design: 'Belt Shoe',
+    sizeInLeg: 39,
+    price: 800.00,
+  );
+
+  apexShoes.toSellInShoes();
+
 }

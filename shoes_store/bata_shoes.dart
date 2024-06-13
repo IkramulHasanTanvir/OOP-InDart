@@ -1,6 +1,5 @@
 import 'shoes.dart';
-
-class BataShoes extends Shoes{
+ class BataShoes extends Shoes{
 
   BataShoes({
    required String color,
@@ -10,10 +9,10 @@ class BataShoes extends Shoes{
   }) : super('Bata',color, design, sizeInLeg, price,);
 
   @override
-  String toSellInShoes() {
-    return 'sell to :$companyName shoe $design \n'
+  void toSellInShoes() {
+    print('sell to :$companyName shoe $design \n'
         ' color : $color \n '
         'Leg Size : $sizeInLeg \n'
-        ' Selling price : $price fixed' ;
+        ' Selling price : $price fixed');
   }
 }
