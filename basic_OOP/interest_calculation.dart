@@ -17,5 +17,5 @@ void main() {
   interest.r = 10;
 
   double totalAmount = interest.calculate();
-  print('the total interest amount is : $totalAmount');
+  print('The total interest amount is : $totalAmount');
 }
