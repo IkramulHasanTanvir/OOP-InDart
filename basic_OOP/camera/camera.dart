@@ -1,15 +1,20 @@
 class Camera {
-  String name;
-  String model;
-  String megapixel;
-  double price; //properties
+  late String name;
+  late String model;
+  late String megapixel;
+  late double price; //properties
 
-  Camera(
-    this.name,
-    this.model,
-    this.megapixel,
-    this.price,
-  ); //constructor
+  Camera({
+    required String name,
+    required String model,
+    required String megapixel,
+    required double price,
+  }) {
+    this.name = name;
+    this.model = model;
+    this.megapixel = megapixel;
+    this.price = price;
+  } //constructor
 
   void display() {
     print('Camera name is : $name');

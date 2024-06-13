@@ -1,16 +1,21 @@
 import 'camera.dart';
 
 main() {
-  Camera camera = Camera('Canon', '600D', '50mp', 60000); //object
-
-  camera.name;
-  camera.model;
-  camera.megapixel;
-  camera.price;
+  Camera camera = Camera(
+    name: 'Canon',
+    model: '600D',
+    megapixel: '50mp',
+    price: 60000,
+  );
 
   camera.display(); //object_print
 
-  Camera camera1 = Camera('Nikon', '550D', '40mp', 40000); //object
+  Camera camera1 = Camera(
+    name: 'Nikon',
+    model: '700D',
+    megapixel: '24mp',
+    price: 40000,
+  );
 
   camera1.display(); //object_print
 
