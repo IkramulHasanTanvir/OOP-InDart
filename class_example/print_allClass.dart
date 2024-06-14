@@ -1,8 +1,8 @@
-import 'example_1.dart';
-import 'example_2.dart';
-import 'example_3.dart';
-import 'example_4.dart';
-import 'example_5.dart';
+import 'animal.dart';
+import 'person.dart';
+import 'area.dart';
+import 'student.dart';
+import 'book.dart';
 
 main() {
   //example_1
