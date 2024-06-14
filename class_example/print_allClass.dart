@@ -5,7 +5,7 @@ import 'student.dart';
 import 'book.dart';
 
 main() {
-  //example_1
+  //animal
   Animal animal = Animal();
   animal.name = 'Cat';
   animal.numberOfLegs = 4;
@@ -13,36 +13,32 @@ main() {
 
   animal.Display();
 
-  //example_2
+  //person
   Person person = Person();
   person.name = 'Tanvir';
   person.phoneNumber = '018********';
   person.isMarried = false;
-  ;
   person.age = 20;
-
   person.DisplayInfo();
 
-  //example_3
+  //area
   Area area = Area();
   area.lengthInFeet = 1000;
   area.breadthInFeet = 500;
-
   print('Area Calculation value : ${area.calculateArea()}');
 
-  //example_4
+  //student
   Student student = Student();
   student.name = 'Hridoy';
   student.age = 20;
   student.grade = 10;
-
   student.displayInfo();
 
-  //example
+  //book
   Book book = Book();
   book.name = 'object orient programming';
   book.authorName = 'Erich Gamma';
   book.price = 320;
-
   book.display();
+
 } //main_methods
