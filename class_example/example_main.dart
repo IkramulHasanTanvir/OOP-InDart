@@ -2,6 +2,7 @@ import 'example_1.dart';
 import 'example_2.dart';
 import 'example_3.dart';
 import 'example_4.dart';
+import 'example_5.dart';
 
 main() {
   //example_1
@@ -36,4 +37,12 @@ main() {
   student.grade = 10;
 
   student.displayInfo();
+
+  //example
+  Book book = Book();
+  book.name = 'object orient programming';
+  book.authorName = 'Erich Gamma';
+  book.price = 320;
+
+  book.display();
 } //main_methods
