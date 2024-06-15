@@ -10,7 +10,6 @@ main() {
   animal.name = 'Cat';
   animal.numberOfLegs = 4;
   animal.lifeSpanYear = 30;
-
   animal.Display();
 
   //person
