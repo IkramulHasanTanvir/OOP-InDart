@@ -1,3 +1,4 @@
+import 'Mobile.dart';
 import 'chair.dart';
 import 'employee.dart';
 import 'laptop.dart';
@@ -18,15 +19,28 @@ void main() {
   employee.display();
 
   // chair
-  Chair chair = Chair(companyName: 'RFL',color: 'red');
+  Chair chair = Chair(companyName: 'RFL', color: 'red');
   chair.display();
 
   //table
   Table table = Table();
   table.display();
 
-  //laptop
-  Laptop laptop = Laptop();
-  laptop.price = 50000;
-  print(laptop.price);
+  //Laptop class is named constructor
+  Laptop laptop = Laptop.apple("apple", 50000);
+  print('Name: ${laptop.name}');
+  print('price: ${laptop.price}');
+
+  Laptop laptop1 = Laptop.lenovo('lenovo');
+  print("Name: ${laptop1.name}");
+
+  //mobile class is named constructor
+  Mobile mobile = Mobile('iphone 11', 'black', 50000);
+  mobile.displayMobileDetail();
+
+  Mobile mobile1 = Mobile.namedConstructor(
+    'iphone x',
+    'white',
+  );
+  mobile1.displayMobileDetail();
 } //main

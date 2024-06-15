@@ -6,6 +6,6 @@ class Table {
 
   void display() {
     print('Table company name : $companyName');
-    print('Table : $color');
+    print('Table : $color \n');
   } //method
 } //class
