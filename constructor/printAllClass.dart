@@ -1,5 +1,6 @@
 import 'Mobile.dart';
 import 'chair.dart';
+import 'customer.dart';
 import 'employee.dart';
 import 'laptop.dart';
 import 'table.dart';
@@ -38,9 +39,19 @@ void main() {
   Mobile mobile = Mobile('iphone 11', 'black', 50000);
   mobile.displayMobileDetail();
 
-  Mobile mobile1 = Mobile.namedConstructor(
+  Mobile tanvirIs = Mobile.namedConstructor(
     'iphone x',
     'white',
   );
-  mobile1.displayMobileDetail();
+  tanvirIs.displayMobileDetail();
+
+  //customer
+  Customer customer = Customer(
+    name: 'tanvir',
+    phone: '092099923223',
+    age: 20,
+  );
+  print('name : ${customer.name}');
+  print('phone : ${customer.phone}');
+  print('age : ${customer.age}');
 } //main
