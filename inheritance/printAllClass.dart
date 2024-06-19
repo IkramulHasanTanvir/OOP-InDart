@@ -4,7 +4,6 @@ import 'watch.dart';
 
 void main() {
   MacBook macBook = MacBook('MacBook Pro', 'Silver');
-
   WallWatch wallWatch = WallWatch();
 
   NewBook newBook = NewBook();
