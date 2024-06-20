@@ -21,4 +21,5 @@ void main() {
   hridoy.totalEmployee();
   Employee rafat = Employee();
   rafat.totalEmployee();
+  print(Employee.count);
 }
